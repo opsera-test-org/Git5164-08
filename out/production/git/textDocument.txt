@@ -1,0 +1,10 @@
+Build declarative Pipelines, quality and security piped in.
+
+Pipeline workflows follow a declarative model so you focus on what is required — not how it’s accomplished — including: software builds, security scans, unit testing, and deployments.
+
+
+abcd test
+
+bcdd testign pradeep
+
+With Blueprints, diagnose any failures from within Opsera using a console output of every step of your pipeline execution.
