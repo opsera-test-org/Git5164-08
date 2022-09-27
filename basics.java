@@ -8,7 +8,7 @@ public class basics {
 
     public static void main(String[] args)
     {
-        for(int i=15001;i<=16000;i++) {
+        for(int i=16001;i<=17000;i++) {
             File file = new File("C:\\Users\\prade\\git\\textdocument_"+i+".txt"); //initialize File object and passing path as argument
             boolean result;
             try {
