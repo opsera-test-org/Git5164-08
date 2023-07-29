@@ -11,7 +11,8 @@ public class basics {
         for(int i=18001;i<=18840;i++) {
             File file = new File("C:\\Users\\prade\\git\\textdocument_"+i+".txt"); //initialize File object and passing path as argument
             boolean result;
-            try {
+            
+          try {
                 result = file.createNewFile();
                 String text     = "Welcome to Opsera\nHappy Learning!";
 
@@ -25,8 +26,9 @@ public class basics {
                 //creates a new file
                 if (result)      // test if successfully created a new file
                 {
-                    System.out.println("file created " + file.getCanonicalPath()); //returns the path string
+                    System.out.println("File created " + file.getCanonicalPath()); //returns the path string
                 } else {
+                  
                     System.out.println("File already exist at location: " + file.getCanonicalPath());
                 }
             } catch (IOException e) {
